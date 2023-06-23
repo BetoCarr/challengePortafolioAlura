@@ -1,0 +1,6 @@
+.sobremi {
+    background-color: var(--sobremi--bkg);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}

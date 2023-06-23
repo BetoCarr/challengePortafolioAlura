@@ -1,7 +1,5 @@
-.head {
+.main {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: var(--header--bkg);
 }
-
