@@ -1,0 +1,14 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+:root {
+    /* - Fuente color  */
+    --petro--100: #464646;
+    
+    /* FUENTE FAMILIA */
+    --raleway: 'Raleway', sans-serif;
+} 
