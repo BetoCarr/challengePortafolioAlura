@@ -11,4 +11,7 @@ body {
     
     /* FUENTE FAMILIA */
     --raleway: 'Raleway', sans-serif;
+
+    /* BACKGROUNDS*/
+    --header--bkg: #FFF8DE;
 } 
