@@ -1,5 +1,6 @@
 .sobremi__imagen{
     max-width: 140px;
     max-height: 52px;
-    background-color: var(--sobremi--bkg);
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
