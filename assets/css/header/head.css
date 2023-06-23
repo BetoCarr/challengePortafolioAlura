@@ -2,23 +2,6 @@
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .7rem
+    flex-direction: column;
 }
-.head__img {
-    max-width: 2rem;
-    max-height: 2.5rem;
-}
-.head__nombre {
-    color: var(--petro--100);
-    font-size: 1.175rem;
-    font-family: var(--raleway);
-    font-weight: 700;
-}
-.head__email {
-    color: var(--petro--100);
-    font-family: var(--raleway);
-    font-size: 0.875rem;
 
-}
