@@ -1,0 +1,20 @@
+.experiencia__div-btnrepo {
+    width: 33%;
+    height: 3rem;
+    margin-right: 0.5rem;
+    font-size:0.9rem;
+    font-weight: 650;
+    color: var(--petro--100);
+    font-family: var(--raleway);
+    background-color: var(--header--bkg);
+}
+.experiencia__div-btndemo {
+    width: 33%;
+    height: 3rem;
+    margin-left: 0.5rem;
+    font-size:0.9rem;
+    font-weight: 650;
+    color: var(--header--bkg);
+    font-family: var(--raleway);
+    background-color: var(--petro--100);
+}
