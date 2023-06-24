@@ -5,4 +5,9 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
 }
