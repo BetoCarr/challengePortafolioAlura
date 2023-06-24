@@ -1,0 +1,7 @@
+.formacion {
+    background-color: var(--sobremi--bkg);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}

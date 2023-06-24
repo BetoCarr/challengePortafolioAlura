@@ -1,0 +1,9 @@
+.formacion__div-desc {
+    background-color: var(--sobremi--bkg);
+    width: 100%;
+    font-size:1rem;
+    font-weight: 650;
+    color: var(--petro--100);
+    font-family: var(--raleway);
+    padding: 0.8rem 0;
+}

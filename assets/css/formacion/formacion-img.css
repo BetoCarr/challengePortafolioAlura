@@ -1,0 +1,7 @@
+.formacion__div-img {
+    align-self: center;
+    height: 6em;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin: 1.5rem 0;
+}

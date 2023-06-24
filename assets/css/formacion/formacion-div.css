@@ -1,0 +1,9 @@
+.formacion__div {
+    width: 100%;
+    height: auto;
+    background-color: var(--header--bkg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
