@@ -4,6 +4,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 :root {
     /* - Fuente color  */
