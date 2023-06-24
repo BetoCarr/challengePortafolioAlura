@@ -1,0 +1,8 @@
+.hobbies {
+    background-color: var(--skills--bkg);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
