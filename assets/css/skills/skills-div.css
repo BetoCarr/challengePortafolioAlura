@@ -1,0 +1,7 @@
+.skills__div {
+    background-color: var(--skills_div--bkg);
+    width: 47%;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
