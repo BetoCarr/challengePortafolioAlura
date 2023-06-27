@@ -17,7 +17,7 @@
 }
 .head__sectioninf_parrafo {
     margin-top: 1rem;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--petro--100);
     font-family: var(--raleway);
@@ -30,7 +30,7 @@
 }
 .head__sectioninf_navegacion_enlace a {
     text-decoration: none;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-family: var(--raleway);
     color: var(--petro--100);
     font-weight: 600
@@ -38,4 +38,27 @@
 .head__sectioninf_navegacion_enlace img {
     width: 1rem;
     height: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .head__sectioninf {
+        padding: 1.5rem;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .head__sectioninf_img {
+        width: 8.125rem;
+        height: 8.125rem;
+        border-radius: 98px;
+        margin-left: 1.2rem;
+        align-self: center;
+    }
+    .head__sectioninf_container {
+        width: 80%;
+    }
+    .head__sectioninf_parrafo {
+        font-size: 1.125rem;
+    }
+    .head__sectioninf_navegacion {
+        padding-right: 2.2rem;
+    }
 }
