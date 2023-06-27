@@ -40,6 +40,12 @@
         <link rel="stylesheet" href="./assets/css/experiencia/experiencia-proyecto.css">
         <link rel="stylesheet" href="./assets/css/experiencia/experiencia-insti.css">
         <link rel="stylesheet" href="./assets/css/experiencia/experiencia-botones.css">
+        <link rel="stylesheet" href="./assets/css/formulario.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-titulo.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-parrafo.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-entradas.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-boton.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
         <title>Portafolio</title>
     </head>
     <body>
@@ -173,9 +179,28 @@
                     <button class="experiencia__div-btnrepo">Repositorio</button> <button class="experiencia__div-btndemo">Ver demo</button>
                 </div>
             </section>
+            <section class="formulario">
+                <h1 class="formulario__titulo">Contacto</h1>
+                <p class="formulario__parrafo">
+                    ¿Quieres contactarme?<br>
+                    Complete el siguiente formulario y me pndré en contacto con usted lo antes posible.
+                </p>
+                <form class="formulario__form" action="">
+                    <label for="name"></label>
+                    <input class="formulario__form-entrada" placeholder="Nombre" type="text" id="name" name="name" required>
+                    <label for="email"></label>
+                    <input class="formulario__form-entrada" placeholder="E-mail" type="text" id="email" name="email" required>
+                    <label for="asunto"></label>
+                    <input class="formulario__form-entrada" placeholder="Asunto" type="text" id="Asunto" name="Asunto" required>
+                    <label for="mensaje"></label>
+                    <input class="formulario__form-entrada msj" placeholder="Mensaje" type="text" id="mensaje" name="mensaje" required>
+                    <label for="boton"></label>
+                    <button class="formulario__form-boton">Enviar mensaje</button>
+                </form>
+            </section>
         </main> 
-        <footer>
-
+        <footer class="footer">
+            <p class="footer__parrafo">Desarrollado por Mario Alberto Carrillo Díaz <br> 2023</p>
         </footer>
     </body>
 </html>

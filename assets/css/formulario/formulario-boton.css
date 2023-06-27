@@ -1,0 +1,8 @@
+.formulario__form-boton {
+    width: 35%;
+    height: 3rem;
+    background-color: var(--petro--100);
+    color: var(--header--bkg);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,6 @@
+.formulario {
+    background-color: var(--sobremi--bkg);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}

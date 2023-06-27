@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--footer--bkg);
+    height: 5rem;
+    padding: 1.7rem 2.7rem;
+    display: flex;
+    align-items: center;
+}
+.footer__parrafo {
+    font-size:1rem;
+    font-weight: 650;
+    color: var(--petro--100);
+    font-family: var(--raleway);
+}
