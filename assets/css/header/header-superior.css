@@ -25,3 +25,15 @@
 .head__sectionsup_navegacion {
     display: none;
 }
+@media screen and (min-width: 768px) {
+    .head__sectionsup {
+        justify-content: flex-start;
+        padding: 1rem 1.5rem;
+    }
+    .head__sectionsup_img {
+        margin-right: 0.5rem;
+    }
+    .head__sectionsup_email {
+        margin-left: auto;
+    }
+}
