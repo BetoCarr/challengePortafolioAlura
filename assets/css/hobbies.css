@@ -6,3 +6,9 @@
     justify-content: space-around;
     box-sizing: border-box;
 }
+@media screen and (min-width: 768px) {
+    .hobbies {
+        padding: 1.5rem;
+    }
+
+}
