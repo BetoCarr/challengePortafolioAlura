@@ -1,8 +1,9 @@
 .footer {
     background-color: var(--footer--bkg);
     height: 5rem;
-    padding: 1.7rem 2.7rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .footer__parrafo {
@@ -10,4 +11,5 @@
     font-weight: 650;
     color: var(--petro--100);
     font-family: var(--raleway);
+    margin-top: 0.4rem;
 }
