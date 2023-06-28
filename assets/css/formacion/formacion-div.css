@@ -12,3 +12,8 @@
         width: 40%;
     }
 }
+@media screen and (min-width: 1024px) {
+    .formacion__div {
+        width: 20%;
+    }
+}

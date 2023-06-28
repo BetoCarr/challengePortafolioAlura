@@ -4,3 +4,8 @@
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
+@media screen and (min-width: 1024px) {
+    .hobbies__div-img {
+        margin-bottom: 0.7rem;
+    }
+}

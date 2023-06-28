@@ -15,3 +15,10 @@
         width: 30.5%;
     }
 }
+@media screen and (min-width: 1024px) {
+    .hobbies__div {
+        width: 15%;
+        height: 8.5rem;
+        justify-content: flex-end;
+    }
+}

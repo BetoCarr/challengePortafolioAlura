@@ -5,3 +5,8 @@
     mix-blend-mode: multiply;
     margin: 1.5rem 0;
 }
+@media screen and (min-width: 1024px) {
+    .formacion__div-img {
+        height: 8em;
+    }
+}

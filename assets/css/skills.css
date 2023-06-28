@@ -6,9 +6,20 @@
     justify-content: space-around;
     box-sizing: border-box;
 }
+.skills__titulo-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 @media screen and (min-width: 768px) {
     .skills {
         padding: 1.5rem;
     }
 
+}
+@media screen and (min-width: 1024px) {
+    .skills {
+        padding: 1rem 3.8rem;
+        justify-content: space-between;
+    }
 }
