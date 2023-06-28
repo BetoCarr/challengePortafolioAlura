@@ -62,3 +62,27 @@
         padding-right: 2.2rem;
     }
 }
+@media screen and (min-width: 1024px) {
+    .head__sectioninf {
+        padding: 1rem 3.8rem;
+    }
+    .head__sectioninf_container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .head__sectioninf_img {
+        width: 12.6rem;
+        height: 12.6rem;
+        border-radius: 98px;
+        margin-left: 0;
+        align-self: center;
+    }
+    .head__sectioninf_titulo {
+        font-size: 1.9rem;
+    }
+    .head__sectioninf_parrafo {
+        font-size: 1.2rem;
+    }
+}

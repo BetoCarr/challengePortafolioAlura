@@ -10,3 +10,8 @@
         padding: 1rem 1.5rem; 
     }
 }
+@media screen and (min-width: 1024px) {
+    .sobremi {
+        padding: 1rem 3.8rem;
+    }
+}
