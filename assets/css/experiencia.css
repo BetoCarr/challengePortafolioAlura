@@ -2,4 +2,15 @@
     background-color: var(--skills--bkg);
     display: flex;
     flex-direction: column;
+    padding: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+    .experiencia {
+        padding: 1rem 1.5rem; 
+    }
+}
+@media screen and (min-width: 1024px) {
+    .experiencia {
+        padding: 1rem 3.8rem;
+    }
 }

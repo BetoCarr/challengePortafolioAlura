@@ -8,3 +8,9 @@
         height: 21rem;
     }
 }
+@media screen and (min-width: 1024px) {
+    .experiencia__div-img {
+        width: 40rem;
+        height: 16rem;
+    }
+}

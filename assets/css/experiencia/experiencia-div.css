@@ -1,3 +1,18 @@
 .experiencia__div {
-    margin: 1.5rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+    .experiencia__div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .experiencia__div:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .experiencia__div_containerp {
+        width: 45%;
+        height: 8rem;
+        margin-left: 1rem;
+    }
 }
