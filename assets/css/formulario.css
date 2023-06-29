@@ -4,3 +4,21 @@
     flex-direction: column;
     padding: 1.5rem;
 }
+.formulario__container img {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .formulario {
+        flex-direction: row;
+        padding: 1rem 3.8rem;
+    }
+    .formulario__container img {
+        display: flex;
+        margin-right: 0.8rem;
+    }
+    .formulario__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
