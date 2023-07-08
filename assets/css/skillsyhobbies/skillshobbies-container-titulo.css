@@ -1,4 +1,9 @@
-.hobbies__titulo {
+.skillsyhobbies__container-titulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* .skills__titulo {
     align-self: center;
     color: var(--petro--100);
     font-family: var(--raleway);
@@ -7,4 +12,4 @@
     margin-bottom: 1rem;
     width: 100%;
     text-align: center;
-}
+} */

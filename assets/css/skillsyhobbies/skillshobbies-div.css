@@ -1,4 +1,4 @@
-.hobbies__div {
+.skillsyhobbies__div {
     background-color: var(--header--bkg);
     width: 44%;
     height: 7rem;
@@ -10,13 +10,14 @@
     align-items: flex-start;
     justify-content: space-around;
 }
+
 @media screen and (min-width: 768px) {
-    .hobbies__div {
+    .skillsyhobbies__div {
         width: 30.5%;
     }
 }
 @media screen and (min-width: 1024px) {
-    .hobbies__div {
+    .skillsyhobbies__div {
         width: 15%;
         height: 8.5rem;
         justify-content: flex-end;
