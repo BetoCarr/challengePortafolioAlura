@@ -41,9 +41,6 @@
     .head__sectioninf-container {
         width: 80%;
     }
-    .parrafo {
-        font-size: 1.125rem;
-    }
     .head__sectioninf-container-navegacion {
         padding-right: 2.2rem;
     }
@@ -64,11 +61,5 @@
         border-radius: 98px;
         margin-left: 0;
         align-self: center;
-    }
-    .titulo {
-        font-size: 1.9rem;
-    }
-    .parrafo {
-        font-size: 1.2rem;
     }
 }

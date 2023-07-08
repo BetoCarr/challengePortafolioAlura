@@ -19,13 +19,11 @@ html, body {
 }
 .parrafo {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--petro--100);
     font-family: var(--raleway);
 }
-
-
 
 :root {
     /* - Fuente color  */
@@ -41,3 +39,21 @@ html, body {
     --skills_div--bkg: #FFFFFF;
     --footer--bkg: #99A98F;
 } 
+
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 1.575rem;
+    }
+    .parrafo {
+        font-size: 1.125rem;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .titulo {
+        font-size: 1.750rem;
+    }
+    .parrafo {
+        font-size: 1.245rem;
+    }
+}
