@@ -1,3 +1,6 @@
+.formulario__form {
+    margin-top: 0.7rem;
+}
 .formulario__form-entrada {
     width: 95%;
     height: 3.5rem;
@@ -8,6 +11,8 @@
     vertical-align: top;
     padding-left: 0.7rem;
     margin-bottom: 0.7rem;
+    border: none;
+    background-color: var(--header--bkg);
 }
 .formulario__form-entrada::placeholder {
     font-size:1rem;
