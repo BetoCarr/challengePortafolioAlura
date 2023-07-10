@@ -5,11 +5,15 @@
     flex-direction: column;
     box-sizing: border-box;
 }
+.parrafo-formacion {
+    background-color: var(--sobremi--bkg);
+    width: 100%;
+    margin-top: 0;
+}
 @media screen and (min-width: 768px) {
     .formacion {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
 }

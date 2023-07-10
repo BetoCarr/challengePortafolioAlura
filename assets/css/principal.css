@@ -10,6 +10,26 @@ html, body {
     width: 100% !important;
     overflow-x: hidden !important;
 }
+.titulo {
+    color: var(--petro--100);
+    font-family: var(--raleway);
+    margin-top: 0.5rem;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.titulo-centrado {
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.parrafo {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--petro--100);
+    font-family: var(--raleway);
+}
+
 :root {
     /* - Fuente color  */
     --petro--100: #464646;
@@ -24,3 +44,21 @@ html, body {
     --skills_div--bkg: #FFFFFF;
     --footer--bkg: #99A98F;
 } 
+
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 1.575rem;
+    }
+    .parrafo {
+        font-size: 1.125rem;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .titulo {
+        font-size: 1.750rem;
+    }
+    .parrafo {
+        font-size: 1.245rem;
+    }
+}

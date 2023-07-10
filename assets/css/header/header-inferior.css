@@ -3,39 +3,25 @@
     flex-direction: column;
     padding: 1rem;
 }
-.head__sectioninf_img {
+.head__sectioninf-img {
     width: 6.125rem;
     height: 6.125rem;
     border-radius: 98px;
 }
-.head__sectioninf_titulo {
-    color: var(--petro--100);
-    font-family: var(--raleway);
-    margin-top: 1rem;
-    font-size: 1.375rem;
-    font-weight: 700;
-}
-.head__sectioninf_parrafo {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--petro--100);
-    font-family: var(--raleway);
-}
-.head__sectioninf_navegacion {
+.head__sectioninf-container-navegacion {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 
 }
-.head__sectioninf_navegacion_enlace a {
+.head__sectioninf-container-navegacion-enlace {
     text-decoration: none;
     font-size: 1rem;
     font-family: var(--raleway);
     color: var(--petro--100);
     font-weight: 600
 }
-.head__sectioninf_navegacion_enlace img {
+.head__sectioninf_navegacion-enlace img {
     width: 1rem;
     height: 1rem;
 }
@@ -45,20 +31,17 @@
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-    .head__sectioninf_img {
+    .head__sectioninf-img {
         width: 8.125rem;
         height: 8.125rem;
         border-radius: 98px;
         margin-left: 1.2rem;
         align-self: center;
     }
-    .head__sectioninf_container {
+    .head__sectioninf-container {
         width: 80%;
     }
-    .head__sectioninf_parrafo {
-        font-size: 1.125rem;
-    }
-    .head__sectioninf_navegacion {
+    .head__sectioninf-container-navegacion {
         padding-right: 2.2rem;
     }
 }
@@ -66,23 +49,17 @@
     .head__sectioninf {
         padding: 1rem 3.8rem;
     }
-    .head__sectioninf_container {
+    .head__sectioninf-container {
         width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .head__sectioninf_img {
+    .head__sectioninf-img {
         width: 12.6rem;
         height: 12.6rem;
         border-radius: 98px;
         margin-left: 0;
         align-self: center;
-    }
-    .head__sectioninf_titulo {
-        font-size: 1.9rem;
-    }
-    .head__sectioninf_parrafo {
-        font-size: 1.2rem;
     }
 }

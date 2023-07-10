@@ -1,0 +1,20 @@
+.skillsyhobbies__div-img {
+    max-height: 2.3rem;
+    max-width: 2rem;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+@media screen and (min-width: 768px) {
+    .skillsyhobbies__div-img {
+        max-height: 2.5rem;
+        max-width: 2.3rem;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .skillsyhobbies__div-img {
+        max-height: 2.9rem;
+        max-width: 2.6rem;
+        margin-bottom: 0.7rem;
+    }
+}
