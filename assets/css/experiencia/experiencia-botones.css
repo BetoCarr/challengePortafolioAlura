@@ -1,4 +1,4 @@
-.experiencia__div-btnrepo {
+.experiencia__div-btn {
     width: 33%;
     height: 3rem;
     margin-right: 0.5rem;
@@ -7,14 +7,10 @@
     color: var(--petro--100);
     font-family: var(--raleway);
     background-color: var(--header--bkg);
+    border-radius: 50px;
+    border: 1px solid #000;
 }
-.experiencia__div-btndemo {
-    width: 33%;
-    height: 3rem;
-    margin-left: 0.5rem;
-    font-size:0.9rem;
-    font-weight: 650;
+.experiencia__div-btngris{
     color: var(--header--bkg);
-    font-family: var(--raleway);
     background-color: var(--petro--100);
 }

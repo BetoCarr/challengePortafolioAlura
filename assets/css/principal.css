@@ -13,9 +13,14 @@ html, body {
 .titulo {
     color: var(--petro--100);
     font-family: var(--raleway);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 1.375rem;
     font-weight: 700;
+}
+.titulo-centrado {
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
 }
 .parrafo {
     margin-top: 1rem;

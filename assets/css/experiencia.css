@@ -4,6 +4,9 @@
     flex-direction: column;
     padding: 1.5rem;
 }
+.parrafo-experiencia {
+    margin-bottom: 0.6rem;
+}
 @media screen and (min-width: 768px) {
     .experiencia {
         padding: 1rem 1.5rem; 
