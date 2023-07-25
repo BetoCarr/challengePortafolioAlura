@@ -27,6 +27,8 @@
         <link rel="stylesheet" href="./assets/css/experiencia/experiencia-img.css">
         <link rel="stylesheet" href="./assets/css/experiencia/experiencia-botones.css">
         <link rel="stylesheet" href="./assets/css/formulario.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-container.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-msj-error.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-entradas.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-boton.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
@@ -196,14 +198,26 @@
                         Complete el siguiente formulario y me pndré en contacto con usted lo antes posible.
                     </p>
                     <form class="formulario__form" action="">
-                        <label for="name"></label>
-                        <input class="formulario__form-entrada" placeholder="Nombre" type="text" id="name" name="name" required>
-                        <label for="email"></label>
-                        <input class="formulario__form-entrada" placeholder="E-mail" type="text" id="email" name="email" required>
-                        <label for="asunto"></label>
-                        <input class="formulario__form-entrada" placeholder="Asunto" type="text" id="Asunto" name="Asunto" required>
-                        <label for="mensaje"></label>
-                        <input class="formulario__form-entrada msj" placeholder="Mensaje" type="text" id="mensaje" name="mensaje" required>
+                        <div class="input-container">
+                            <label for="nombre"></label>
+                            <input class="formulario__form-entrada input" placeholder="Nombre" type="text" id="nombre" name="nombre" data-tipo="nombre" required><br>
+                            <span class="input-msj-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <label for="email"></label>
+                            <input class="formulario__form-entrada input" placeholder="E-mail" type="email" id="email" name="email" data-tipo="email" required><br>
+                            <span class="input-msj-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <label for="asunto"></label>
+                            <input class="formulario__form-entrada input" placeholder="Asunto" type="text" id="asunto" name="asunto" data-tipo="asunto" required><br>
+                            <span class="input-msj-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <label for="mensaje"></label>
+                            <input class="formulario__form-entrada msj input" placeholder="Mensaje" type="text" id="mensaje" name="mensaje" data-tipo="mensaje" required><br>
+                            <span class="input-msj-error"></span>
+                        </div>
                         <label for="boton"></label>
                         <button class="formulario__form-boton">Enviar mensaje</button>
                     </form>
@@ -214,5 +228,6 @@
             <p class="footer__parrafo">Desarrollado por Mario Alberto Carrillo Díaz</p>
             <p class="footer__parrafo">2023</p>
         </footer>
+        <script src="./codejs/validaciones.js"></script>
     </body>
 </html>

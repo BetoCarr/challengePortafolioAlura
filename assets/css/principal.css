@@ -33,6 +33,7 @@ html, body {
 :root {
     /* - Fuente color  */
     --petro--100: #464646;
+    --rojo--error: #ff0000;
     
     /* FUENTE FAMILIA */
     --raleway: 'Raleway', sans-serif;

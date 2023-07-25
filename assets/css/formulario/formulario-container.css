@@ -1,0 +1,7 @@
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-container--invalid .formulario__form-entrada {
+    border: 2px solid #ff0000; /* Borde rojo para campos inválidos */
+}
