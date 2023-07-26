@@ -1,11 +1,22 @@
 // Almacene todos los inputs en el NodeList "inputs".
 const inputs = document.querySelectorAll("input");  
+const form = document.querySelector(".formulario__form");
+const botonEnviar = document.getElementById("botonEnviar");
+
+console.log(form);
 
  // Itero el NodeList agregando el escuchador de evento "blur", y llama a funcion validar pasando por parametro el objeto del input.
 inputs.forEach(input => { 
     input.addEventListener("blur", () => {
         validar(input);
     })
+});
+
+form.addEventListener("input", () => {
+    // Verificar la validez de todos los campos del formulario
+    const camposValidos = Array.from(form.elements).every((input) => input.checkValidity());
+    // Habilitar o deshabilitar el botón según los campos válidos
+    botonEnviar.disabled = !camposValidos;
 });
 
 // Declare el objeto "validadores" se utiliza para agrupar diferentes funciones flecha de validación según el tipo de input.
