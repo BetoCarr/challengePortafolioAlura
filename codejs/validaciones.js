@@ -10,8 +10,10 @@ inputs.forEach(input => {
 
 // Declare el objeto "validadores" se utiliza para agrupar diferentes funciones flecha de validación según el tipo de input.
 const validadores = {                                // El valor asociado a las propiedades es una función flecha que toma un parámetro input 
-    nombre: (input) => validarNombre(input) ,         // y luego invoca otra función llamada validarInput pasando el input como argumento.
-    email: (input) => validarEmail(input)
+    nombre: (input) => validarCampo(input, "nombre", 50) ,         // y luego invoca otra función llamada validarInput pasando el input como argumento.
+    email: (input) => validarEmail(input),
+    asunto: (input) => validarCampo(input, "asunto", 50),
+    mensaje: (input) => validarCampo(input, "mensaje", 300)
 }
 
 // Funcion que determina que tipo de input es el que se va validar, recibe por parametro el obejto de input.
@@ -23,13 +25,12 @@ function validar(input) {
 }
 
 // Funcion para validar el input de nombre, recibe por parametro el objeto del input.
-function validarNombre(input) {
-    const valorNombre = input.value.trim(); // Se declara la constante "valorNombre" obteniendo el valor del input y quitando los espacios en blanco con el metodo trim.
-    const maxCaracteres = 50;               // Se declara la constante "maxCaracteres" que representa el numero máximo de caracteres permitidos.
-    if (valorNombre === "") {               // Si el usuario no ingresa nada se llama a la funcion mostrarMensajeError, pasando el mensaje correspondiente.
-        mostrarMensajeError(input, `El campo nombre no debe estar en blanco.`);
-    } else if (valorNombre.length > maxCaracteres) { // Si el usuario excede los 50 caracteres permitidos se llama a la funcion mostrarMensajeError, pasando el mensaje correspondiente.
-        mostrarMensajeError(input, `El campo nombre debe tener máximo ${maxCaracteres} caracteres.`);
+function validarCampo(input, tipoCampo, maxCaracteres) {
+    const valorCampo = input.value.trim(); // Se declara la constante "valorCampo" obteniendo el valor del input y quitando los espacios en blanco con el metodo trim.
+    if (valorCampo === "") {               // Si el usuario no ingresa nada se llama a la funcion mostrarMensajeError, pasando el mensaje correspondiente.
+        mostrarMensajeError(input, `El campo ${tipoCampo} no debe estar en blanco.`);
+    } else if (valorCampo.length > maxCaracteres) { // Si el usuario excede los 50 caracteres permitidos se llama a la funcion mostrarMensajeError, pasando el mensaje correspondiente.
+        mostrarMensajeError(input, `El campo ${tipoCampo} debe tener máximo ${maxCaracteres} caracteres.`);
         input.value = "";
     } else {  // Si el valor es válido, limpiamos los mensajes de error previos.
         input.parentElement.classList.remove("input-container--invalid");
